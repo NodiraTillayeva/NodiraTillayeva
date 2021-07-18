@@ -1,4 +1,4 @@
-Hello there! I am Nodira (aka Nara Sama) 🐱‍ 
+# Hello there! I am Nodira (aka Nara Sama) 🐱‍ 
 
 - 🔭 I’m currently working on a Java Project!
 - 🎶 I’m currently learning Python!

@@ -5,3 +5,5 @@ Hello there! I am Nodira (aka Nara Sama) 🐱‍
 - 📫 How to reach me: ntillayeva@gmail.com
 - 💖 Pronouns: She/Her
 - ⚡ Fun fact: I am a weeb, hehe!
+
+[![Nodira's GitHub stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva)](https://github.com/NodiraTillayeva/github-readme-stats)

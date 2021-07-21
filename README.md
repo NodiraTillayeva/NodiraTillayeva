@@ -1,3 +1,4 @@
+![I am GitHub Readme Generator's creator](https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/banner.png)
 # Hi, It's Nara Sama!
 ### Developmer // Designer // Digital Artist
 

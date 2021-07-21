@@ -1,7 +1,8 @@
 
 # Hi, It's Nara Sama!
-### Developmer // Designer // Digital Artist
 ![I am GitHub Readme Generator's creator](https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/bannerBigger.png)
+
+### Developmer // Designer // Digital Artist
 ### Some Personal Info
 - 😄 3rd year student at Inha University in Tashkent
 - 💬 I study Computer Science and Software Engineering  

@@ -18,10 +18,12 @@
 ### Socials
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/NodiraTillayeva)  [<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png' alt='facebook' height='40' > ](https://www.facebook.com/ntillayeva)  [<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/1200px-Instagram.svg.png' alt='instagram' height='40'>](https://www.instagram.com/narasama.exe/)  [<img src='https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png' alt='twitter' height='40'>](https://twitter.com/ntillayeva)  [<img src='https://2.bp.blogspot.com/-r3brlD_9eHg/XDz5bERnBMI/AAAAAAAAG2Y/XfivK0eVkiQej2t-xfmlNL6MlSQZkvcEACK4BGAYYCw/s1600/logo%2Breddit.png' alt='Reddit' height='40'>](https://www.reddit.com/user/nara_sama)  [<img src='https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Artstation-512.png' alt='website' height='40'>](https://www.artstation.com/nara_sama)  [<img src='https://cdn.worldvectorlogo.com/logos/hackerrank.svg' alt='hackerrank' height='40'>](https://www.hackerrank.com/narasama)  [<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png' alt='steam' height='40'>](https://steamcommunity.com/profiles/76561199005202670/)  [<img src='https://cdn.iconscout.com/icon/free/png-256/deviantart-28-721941.png' alt='deviantart' height='40'>](https://www.deviantart.com/nadirasama)  
 
-### Top Langs
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva)](https://github.com/anuraghazra/github-readme-stats)
-
 ### GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&count_private=true)  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&count_private=true&theme=tokyonight)  
+
+### Top Langs
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats )
+
+
 
 

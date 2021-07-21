@@ -1,5 +1,5 @@
 
-# Hi, It's Nara Sama!
+# Hi, It's Nara Sama! :fox_face:
 ![I am GitHub Readme Generator's creator](https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/bannerBigger.png)
 
 ### Developmer // Designer // Digital Artist

@@ -21,5 +21,12 @@
 ### GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&count_private=true&theme=tokyonight)  
 
+### Top Languages
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 
+### Some Repos
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NodiraTillayeva&repo=JavaDiaryWindowsApp&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NodiraTillayeva&repo=WeekDayByDate&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NodiraTillayeva&repo=JavaLabs&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NodiraTillayeva&repo=Calendar&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)

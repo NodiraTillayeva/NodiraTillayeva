@@ -1,4 +1,4 @@
-# Hi, Its Nara Sama!
+# Hi, It's Nara Sama!
 ### Developmer // Designer // Digital Artist
 
 

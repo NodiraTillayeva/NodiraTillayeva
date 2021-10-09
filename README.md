@@ -9,7 +9,7 @@
 - 🔭 I’m currently working on Python Data Science Project and Android startup 
 - 🌱 I’m currently learning Python and MySQL 
 - 😄 Pronouns: SHE/HER 
-- ⚡ Fun fact: I am a weeb, teeheeee 
+- ⚡ Fun fact: I am a weeb, teehee
 
 
 

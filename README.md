@@ -6,7 +6,7 @@
 ### Some Personal Info
 - 😄 3rd year student at Inha University in Tashkent
 - 💬 I study Computer Science and Software Engineering  
-- 🔭 I’m currently working on Python Data Science Project and Android startup 
+- 🔭 I’m currently working on Python Data Science Project
 - 🌱 I’m currently learning Python and MySQL 
 - 😄 Pronouns: SHE/HER 
 - ⚡ Fun fact: I am a weeb, teehee

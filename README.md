@@ -4,7 +4,7 @@
 
 ## Developer // Designer // Digital Artist
 ### Some Personal Info
-- 😄 3rd year student at Inha University in Tashkent
+- 😄 Senior student at Inha University in Tashkent
 - 💬 I study Computer Science and Software Engineering  
 - 🔭 I’m currently working on Python Data Science Project
 - 🌱 I’m currently learning Python and MySQL 

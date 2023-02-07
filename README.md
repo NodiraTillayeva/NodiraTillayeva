@@ -19,7 +19,7 @@
 
 ### Featured Projects:
 
-[<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='200'>](https://github.com/NodiraTillayeva)
+[<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='160'>](https://github.com/NodiraTillayeva)    
 
 
 <h3 align="left">Languages and Tools:</h3>

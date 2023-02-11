@@ -3,10 +3,6 @@
 ![I am GitHub Readme Generator's creator](https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/bannerBigger.png)
 
 
-![](https://komarev.com/ghpvc/?username=NodiraTillayeva)
-
-
-
 ## Developer // Digital Artist
 ### Some Personal Info
 - 😄 Senior student at Inha University in Tashkent

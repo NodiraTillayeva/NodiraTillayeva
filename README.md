@@ -9,8 +9,6 @@
 - 💬 I study Computer Science and Software Engineering  
 - 🔭 I’m currently working on GIS projects
 - 🌱 I’m currently learning Python and MySQL 
-- 😄 Pronouns: SHE/HER 
-
 
 
 ### Featured Projects:

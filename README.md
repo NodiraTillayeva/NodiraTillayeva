@@ -3,7 +3,7 @@
 ![I am GitHub Readme Generator's creator](https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/bannerBigger.png)
 
 
-## Developer // Digital Artist
+## Data Analyst // Developer // Digital Artist
 ### Some Personal Info
 - 😄 Senior student at Inha University in Tashkent
 - 💬 I study Computer Science and Software Engineering  

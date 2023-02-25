@@ -6,7 +6,6 @@
 ## Data Analyst // Developer // Digital Artist
 ### Some Personal Info
 - 😄 Senior student at Inha University in Tashkent
-- 💬 SCE
 - 🔭 I’m currently working on GIS projects
 - 🌱 I’m currently learning Python and SQL 
 

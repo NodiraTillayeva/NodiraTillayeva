@@ -5,7 +5,8 @@
 
 ## Data Analyst // GIS Specialist // Digital Artist
 ### Some Personal Info
-- 😄 Senior student at Inha University in Tashkent
+- 😄 INHA University in Tashkent Graduate
+- Leading Specialist at Uzbek Space Agency
 - 🔭 I’m currently working on ArcGIS projects
 - 🌱 I’m currently learning Python and SQL 
 

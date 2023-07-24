@@ -7,7 +7,7 @@
 ### Some Personal Info
 - 😄 INHA University in Tashkent Graduate
 - :fox_face: Leading Specialist at Uzbek Space Agency in department of Ai and Development
-- 🔭 I’m currently working on ArcGIS projects
+- 🔭 I’m currently working on GIS projects
 - 🌱 I’m currently learning Python and SQL 
 
 

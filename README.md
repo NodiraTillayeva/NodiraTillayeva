@@ -14,14 +14,15 @@
  ### Featured Projects:
 
 [<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ArcGis)
+[<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/Frame%202.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ArcGis)
 [<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/assets/74857220/f8c5891f-9605-4e08-a664-c464e5a7b017' alt='github' height='160'>](https://github.com/NodiraTillayeva/NodiraTillayeva/assets/74857220/f8c5891f-9605-4e08-a664-c464e5a7b017)
 
 
 <h3 align="left">Tools:</h3>
 <p align="left">
 <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
 <a href="https://www.automationanywhere.com" target="_blank"> <img src="https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/automation360.png" alt="Automation360" width="40" height="40"/> </a>
+<a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
 
 
 

@@ -4,7 +4,7 @@
 
 
 ## Data Analyst // GIS Specialist // Digital Artist
-### Some Personal Info
+### Personal Info
 - 😄 INHA University in Tashkent Graduate
 - :fox_face: Leading Specialist at Uzbek Space Agency in department of Ai and Development
 - 🔭 I’m currently working on GIS projects

@@ -14,9 +14,10 @@
  ### Featured Projects:
 
 [<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ArcGis)
+[<img src="https://github.com/NodiraTillayeva/OverpassTurboImplementation/blob/main/output-onlinegiftools.gif" alt="github" style="height:160px; border-radius:50px;">](https://github.com/NodiraTillayeva/OverpassTurboImplementation)
 [<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/Frame%202.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ERA5Analysis)
-[<img src="https://github.com/NodiraTillayeva/OverpassTurboImplementation/blob/main/ezgif.com-crop%20(1).gif" alt="github" style="height:160px; border-radius:50px;">](https://github.com/NodiraTillayeva/OverpassTurboImplementation)
-[<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/assets/74857220/f8c5891f-9605-4e08-a664-c464e5a7b017' alt='github' height='160'>](https://github.com/NodiraTillayeva/NodiraTillayeva/assets/74857220/f8c5891f-9605-4e08-a664-c464e5a7b017)
+
+
 
 
 <h3 align="left">Tools:</h3>

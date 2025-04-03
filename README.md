@@ -13,10 +13,10 @@
 
  ### Featured Projects:
 
-[<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ArcGis)
-[<img src="https://github.com/NodiraTillayeva/OverpassTurboImplementation/blob/main/output-onlinegiftools.gif" alt="github" style="height:160px; border-radius:50px;">](https://github.com/NodiraTillayeva/OverpassTurboImplementation)
-[<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/Frame%202.png' alt='github' height='160'>](https://github.com/NodiraTillayeva/ERA5Analysis)
-[<img src='https://github.com/user-attachments/assets/df458584-8a03-429e-be46-90719cc09bcb' alt='github' height='160'>](https://ee-my-username-nara-sama123.projects.earthengine.app/view/uzbekistan)
+[<img src='https://github.com/NodiraTillayeva/ArcGis/blob/main/GisButon.png' alt='github' height='120'>](https://github.com/NodiraTillayeva/ArcGis)
+[<img src="https://github.com/NodiraTillayeva/OverpassTurboImplementation/blob/main/output-onlinegiftools.gif" alt="github" style="height:120px; border-radius:50px;">](https://github.com/NodiraTillayeva/OverpassTurboImplementation)
+[<img src='https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/Frame%202.png' alt='github' height='120'>](https://github.com/NodiraTillayeva/ERA5Analysis)
+[<img src='https://github.com/user-attachments/assets/df458584-8a03-429e-be46-90719cc09bcb' alt='github' style="height:120px; border-radius:50px;">](https://ee-my-username-nara-sama123.projects.earthengine.app/view/uzbekistan)
 
 
 

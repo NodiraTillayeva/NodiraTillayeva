@@ -23,9 +23,29 @@
 
 <h3 align="left">Tools:</h3>
 <p align="left">
-<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.automationanywhere.com" target="_blank"> <img src="https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/automation360.png" alt="Automation360" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  </a>
+  <a href="https://www.automationanywhere.com" target="_blank">
+    <img src="https://github.com/NodiraTillayeva/NodiraTillayeva/blob/main/automation360.png" alt="Automation360" width="40" height="40"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+  </a>
+  <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank">
+    <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_64636a5c446c22391d4ed719e0987cd2/arcgis-pro.png" alt="ArcGIS Pro" width="40" height="40"/>
+  </a>
+  <a href="https://earthengine.google.com/" target="_blank">
+    <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="Google Earth Engine" width="40" height="40"/>
+  </a>
+  <a href="https://www.r-project.org/" target="_blank">
+    <img src="https://www.r-project.org/Rlogo.png" alt="R" width="40" height="40"/>
+  </a>
+  <a href="https://www.javascript.com" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="40" height="40"/>
+  </a>
+</p>
+
 
 
 

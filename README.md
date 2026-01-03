@@ -79,13 +79,3 @@
     Your browser does not support the video tag.
   </video>
 </div>
-
-
-
-### GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&count_private=true&theme=dracula&hide_border=true)  
-
-### Top Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva&layout=compact&theme=dracula&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-

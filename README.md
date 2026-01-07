@@ -135,15 +135,9 @@ Automation   : Automation 360, Python Scripts
   Your browser does not support the video tag.
 </video>
 
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&theme=radical&hide_border=true&count_private=true)
-  
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NodiraTillayeva&theme=radical&hide_border=true)](https://git.io/streak-stats)
-  
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva&layout=compact&theme=radical&hide_border=true)
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=NodiraTillayeva&theme=radical&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=NodiraTillayeva&color=blueviolet&style=flat-square)
+![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+
+![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-light-mode-only)
 
 <br><br>
 

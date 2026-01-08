@@ -140,6 +140,10 @@ Automation   : Automation 360, Python Scripts
   Your browser does not support the video tag.
 </video>
 
+![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+
+![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-light-mode-only)
+
 <br><br>
 
 

@@ -103,6 +103,11 @@ Databases    : MySQL, PostgreSQL
 Automation   : Automation 360, Python Scripts
 ```
 
+---
+
+
+---
+
 ### 🏆 Honors & Recognition
 
 - 🌏 **UN Conference Speaker** — 6th UN Conference on Water Management using Space Technologies (Costa Rica, 2024)
@@ -136,6 +141,19 @@ Automation   : Automation 360, Python Scripts
 </video>
 
 <br><br>
+
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NodiraTillayeva&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NodiraTillayeva&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+
 
 *Thanks for stopping by! Let's collaborate on something amazing.* 🦊
 

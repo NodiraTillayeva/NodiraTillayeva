@@ -124,7 +124,7 @@ Automation   : Automation 360, Python Scripts
   <a href="https://github.com/NodiraTillayeva"><img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg' alt='github' height='40'></a>
   <a href="https://www.instagram.com/narasama.exe/"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/1200px-Instagram.svg.png' alt='instagram' height='40'></a>
   <a href="https://twitter.com/ntillayeva"><img src='https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png' alt='twitter' height='40'></a>
-  <a href="https://www.artstation.com/narasama"><img src='https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Artstation-512.png' alt='artstation' height='40'></a>
+  <a href="https://www.artstation.com/narasamaexe"><img src='https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Artstation-512.png' alt='artstation' height='40'></a>
   <a href="https://www.hackerrank.com/narasama"><img src='https://cdn.worldvectorlogo.com/logos/hackerrank.svg' alt='hackerrank' height='40'></a>
   <a href="https://steamcommunity.com/profiles/76561199005202670/"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png' alt='steam' height='40'></a>
   <a href="https://www.deviantart.com/nadirasama"><img src='https://cdn.iconscout.com/icon/free/png-256/deviantart-28-721941.png' alt='deviantart' height='40'></a>

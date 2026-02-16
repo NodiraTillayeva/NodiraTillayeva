@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="vignette"></div>
+
+  <main class="game-container">
+    <div class="character-area">
+      <!-- Stacked character images for crossfade (no frame, raw PNG) -->
+      <div class="character-images">
+        <img src="images/character-default.png" alt="Character" class="character-img active" data-character="default">
+        <img src="images/character-tech.png" alt="Tech Character" class="character-img" data-character="tech">
+        <img src="images/character-art.png" alt="Art Character" class="character-img" data-character="art">
+        <img src="images/character-research.png" alt="Research Character" class="character-img" data-character="research">
+        <img src="images/character-projects.png" alt="Projects Character" class="character-img" data-character="projects">
+        <!-- Fallback placeholders -->
+        <div class="character-placeholder active" data-character="default">
+          <span>DEFAULT</span>
+        </div>
+        <div class="character-placeholder" data-character="tech">
+          <span>TECH</span>
+        </div>
+        <div class="character-placeholder" data-character="art">
+          <span>ART</span>
+        </div>
+        <div class="character-placeholder" data-character="research">
+          <span>RESEARCH</span>
+        </div>
+        <div class="character-placeholder" data-character="projects">
+          <span>PROJECTS</span>
+        </div>
+      </div>
+
+      <!-- Floating menu buttons positioned around the character -->
+      <a href="pages/tech.html" class="menu-item" data-target="tech">
+        <span class="menu-arrow">&#9654;</span>
+        <span class="menu-label">Tech</span>
+      </a>
+      <a href="pages/art.html" class="menu-item" data-target="art">
+        <span class="menu-arrow">&#9654;</span>
+        <span class="menu-label">Art</span>
+      </a>
+      <a href="pages/research.html" class="menu-item" data-target="research">
+        <span class="menu-arrow">&#9654;</span>
+        <span class="menu-label">Research</span>
+      </a>
+      <a href="pages/projects.html" class="menu-item" data-target="projects">
+        <span class="menu-arrow">&#9654;</span>
+        <span class="menu-label">Projects</span>
+      </a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

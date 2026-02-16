@@ -1,0 +1,362 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #0a0a0f;
+  --bg-card: #12121a;
+  --border-color: #2a2a3a;
+  --gold: #d4a843;
+  --gold-dim: #8a6d2b;
+  --gold-glow: rgba(212, 168, 67, 0.4);
+  --text: #c8c8d0;
+  --text-dim: #6a6a7a;
+  --font-rpg: 'Press Start 2P', monospace;
+  --font-body: 'Segoe UI', system-ui, sans-serif;
+  --transition-speed: 0.4s;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-dark);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+/* ===== Atmosphere Overlays ===== */
+.scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.08) 2px,
+    rgba(0, 0, 0, 0.08) 4px
+  );
+}
+
+.vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 99;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+/* ===== Main Layout ===== */
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ===== Character Area (contains character + floating buttons) ===== */
+.character-area {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Character Images — no frame, raw PNG ===== */
+.character-images {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  /* No border, no background — the PNG IS the character */
+}
+
+.character-img,
+.character-placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity var(--transition-speed) ease;
+}
+
+.character-img.active,
+.character-placeholder.active {
+  opacity: 1;
+}
+
+.character-img {
+  /* Drop shadow to make the PNG pop against the dark bg */
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.6));
+  transition: opacity var(--transition-speed) ease, filter var(--transition-speed) ease;
+}
+
+/* Category glow on the character PNG itself */
+.character-img.active.glow-tech {
+  filter: drop-shadow(0 0 25px rgba(74, 158, 255, 0.4));
+}
+.character-img.active.glow-art {
+  filter: drop-shadow(0 0 25px rgba(255, 107, 157, 0.4));
+}
+.character-img.active.glow-research {
+  filter: drop-shadow(0 0 25px rgba(80, 200, 120, 0.4));
+}
+.character-img.active.glow-projects {
+  filter: drop-shadow(0 0 25px rgba(255, 166, 74, 0.4));
+}
+
+/* Placeholder fallbacks (silhouette-style, shown when no images) */
+.character-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-rpg);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 2px;
+  border-radius: 50%;
+}
+
+.character-placeholder[data-character="default"] {
+  background: radial-gradient(ellipse, #1a1a2e 0%, transparent 70%);
+}
+.character-placeholder[data-character="tech"] {
+  background: radial-gradient(ellipse, #0a1628 0%, transparent 70%);
+}
+.character-placeholder[data-character="art"] {
+  background: radial-gradient(ellipse, #2a0a1a 0%, transparent 70%);
+}
+.character-placeholder[data-character="research"] {
+  background: radial-gradient(ellipse, #0a2a1a 0%, transparent 70%);
+}
+.character-placeholder[data-character="projects"] {
+  background: radial-gradient(ellipse, #2a1a0a 0%, transparent 70%);
+}
+
+/* ===== Float animation ===== */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+/* ===== Floating Menu Buttons ===== */
+.menu-item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.8rem;
+  border: 2px solid var(--border-color);
+  border-radius: 50px;
+  background: rgba(18, 18, 26, 0.85);
+  backdrop-filter: blur(4px);
+  text-decoration: none;
+  color: var(--text);
+  font-family: var(--font-rpg);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  white-space: nowrap;
+  animation: float 3s ease-in-out infinite;
+  transition:
+    border-color var(--transition-speed),
+    box-shadow var(--transition-speed),
+    color var(--transition-speed);
+  user-select: none;
+  z-index: 10;
+}
+
+.menu-item:hover {
+  animation-play-state: paused;
+}
+
+/* Position each button + stagger the animation */
+.menu-item[data-target="tech"] {
+  top: 5%;
+  right: 0;
+  animation-delay: 0s;
+}
+
+.menu-item[data-target="art"] {
+  top: 5%;
+  left: 0;
+  animation-delay: -0.75s;
+}
+
+.menu-item[data-target="research"] {
+  bottom: 5%;
+  left: 0;
+  animation-delay: -1.5s;
+}
+
+.menu-item[data-target="projects"] {
+  bottom: 5%;
+  right: 0;
+  animation-delay: -2.25s;
+}
+
+.menu-arrow {
+  font-size: 0.6rem;
+  color: var(--gold-dim);
+  transition: color var(--transition-speed), transform 0.2s;
+}
+
+.menu-item:hover .menu-arrow {
+  color: var(--gold);
+  transform: translateX(3px);
+}
+
+/* Per-category hover colors */
+.menu-item[data-target="tech"]:hover {
+  border-color: #4a9eff;
+  color: #4a9eff;
+  box-shadow: 0 0 15px rgba(74, 158, 255, 0.25), inset 0 0 15px rgba(74, 158, 255, 0.05);
+}
+
+.menu-item[data-target="art"]:hover {
+  border-color: #ff6b9d;
+  color: #ff6b9d;
+  box-shadow: 0 0 15px rgba(255, 107, 157, 0.25), inset 0 0 15px rgba(255, 107, 157, 0.05);
+}
+
+.menu-item[data-target="research"]:hover {
+  border-color: #50c878;
+  color: #50c878;
+  box-shadow: 0 0 15px rgba(80, 200, 120, 0.25), inset 0 0 15px rgba(80, 200, 120, 0.05);
+}
+
+.menu-item[data-target="projects"]:hover {
+  border-color: #ffa64a;
+  color: #ffa64a;
+  box-shadow: 0 0 15px rgba(255, 166, 74, 0.25), inset 0 0 15px rgba(255, 166, 74, 0.05);
+}
+
+.menu-item:active {
+  transform: scale(0.95);
+}
+
+/* ===== Category Pages ===== */
+.page-container {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-family: var(--font-rpg);
+  font-size: 0.6rem;
+  text-decoration: none;
+  transition: border-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.back-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 0 10px var(--gold-glow);
+}
+
+.page-title {
+  font-family: var(--font-rpg);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.page-title.tech { color: #4a9eff; }
+.page-title.art { color: #ff6b9d; }
+.page-title.research { color: #50c878; }
+.page-title.projects { color: #ffa64a; }
+
+.page-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.content-section {
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-card);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-section h2 {
+  font-family: var(--font-rpg);
+  font-size: 0.7rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.content-section p {
+  line-height: 1.8;
+  color: var(--text-dim);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .character-area {
+    width: 320px;
+    height: 420px;
+  }
+
+  .character-images {
+    width: 180px;
+    height: 260px;
+  }
+
+  .menu-item {
+    font-size: 0.55rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .page-title {
+    font-size: 0.85rem;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+/* ===== Scrollbar (for category pages) ===== */
+.page-container {
+  overflow-y: auto;
+}
+
+body:has(.page-container) {
+  overflow: auto;
+}

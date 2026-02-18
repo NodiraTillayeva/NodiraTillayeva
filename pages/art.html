@@ -3,38 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Art - Portfolio</title>
+  <title>Nara Sama — Art</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body data-mode="art">
+
   <div class="scanlines"></div>
   <div class="vignette"></div>
 
+  <!-- HUD -->
+  <div class="hud hud-tl">
+    <span class="hud-bracket">[</span>
+    <span class="hud-text">ART</span>
+    <span class="hud-bracket">]</span>
+    <span class="hud-separator">//</span>
+    <span class="hud-text dim">CREATIVE.EXE</span>
+  </div>
+  <div class="hud hud-tr">
+    <span class="hud-dot pulse"></span>
+    <span class="hud-text dim">RENDERING</span>
+  </div>
+
   <div class="page-container">
     <header class="page-header">
-      <a href="../index.html" class="back-btn">&#9664; Back</a>
-      <h1 class="page-title art">Art</h1>
+      <a href="../index.html" class="back-btn">
+        <span class="back-arrow">&#9664;</span> Hub
+      </a>
+      <h1 class="page-title">Art</h1>
+      <span class="page-subtitle">// CANVAS.MODE</span>
     </header>
 
     <div class="page-content">
+
+      <!-- Intro -->
       <section class="content-section">
-        <h2>Gallery</h2>
-        <p>Your artwork and visual creations go here. Add images, illustrations, designs, or any visual work you want to showcase.</p>
+        <div class="section-header">
+          <div class="section-icon">&#10022;</div>
+          <h2 class="section-title">Creative Extension of Research</h2>
+        </div>
+        <div class="section-body">
+          <p>Art here is not separate from the technical work — it is its visual dimension. Maps become canvases, data becomes texture, and spatial information transforms into visual stories that communicate what numbers alone cannot.</p>
+        </div>
       </section>
 
+      <!-- GIS Art & Cartography -->
       <section class="content-section">
-        <h2>Mediums</h2>
-        <p>Describe the mediums and tools you work with - digital art, traditional, 3D modeling, pixel art, etc.</p>
+        <div class="section-header">
+          <div class="section-icon">&#127758;</div>
+          <h2 class="section-title">GIS Art & Cartography</h2>
+        </div>
+        <div class="section-body">
+          <p>Creating visually compelling representations of geospatial data — where scientific rigor meets artistic expression. Maps as canvas, data as medium.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Urban Heat Map<br>Visualization</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Satellite Composite<br>Artwork</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Mobility Flow<br>Visualization</span>
+          </div>
+        </div>
       </section>
 
+      <!-- Map Challenges -->
       <section class="content-section">
-        <h2>Commissions &amp; Collaborations</h2>
-        <p>Information about commissions, collaborations, or client work.</p>
+        <div class="section-header">
+          <div class="section-icon">&#9873;</div>
+          <h2 class="section-title">Map Challenges</h2>
+        </div>
+        <div class="section-body">
+          <p>Participation in community cartography challenges — transforming geographic data into visual stories, one map at a time. Each challenge pushes the boundary between data science and visual communication.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <span class="gallery-placeholder">#30DayMapChallenge<br>Collection</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Thematic Map<br>Series</span>
+          </div>
+        </div>
       </section>
+
+      <!-- Visual Experiments -->
+      <section class="content-section">
+        <div class="section-header">
+          <div class="section-icon">&#9672;</div>
+          <h2 class="section-title">Visual Experiments</h2>
+        </div>
+        <div class="section-body">
+          <p>Creative coding and data visualization experiments that push the boundaries of how we perceive spatial information. Where computation becomes composition.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Generative Terrain<br>Experiment</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Data-Driven<br>Abstract</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Spatial Pattern<br>Study</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Space Visualizations -->
+      <section class="content-section">
+        <div class="section-header">
+          <div class="section-icon">&#10038;</div>
+          <h2 class="section-title">Space Visualizations</h2>
+        </div>
+        <div class="section-body">
+          <p>Astronomical and space-themed visual works inspired by observatory research and satellite data. The universe as both subject and medium — visualizing the intersection of space science and artistic expression.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Maidanak Observatory<br>Data Art</span>
+          </div>
+          <div class="gallery-item">
+            <span class="gallery-placeholder">Celestial<br>Mapping</span>
+          </div>
+        </div>
+      </section>
+
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="social-links">
+        <a href="https://www.artstation.com/narasamaexe" target="_blank" rel="noopener" class="social-link">ArtStation</a>
+        <a href="https://www.deviantart.com/nadirasama" target="_blank" rel="noopener" class="social-link">DeviantArt</a>
+        <a href="https://www.instagram.com/narasama.exe/" target="_blank" rel="noopener" class="social-link">IG</a>
+      </div>
+      <p class="footer-text" style="margin-top: 1rem;">NARA_SAMA // ART MODE</p>
+    </footer>
   </div>
+
+  <script src="../js/main.js"></script>
 </body>
 </html>

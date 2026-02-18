@@ -3,38 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Portfolio</title>
+  <title>Nara Sama — Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body data-mode="projects">
+
   <div class="scanlines"></div>
   <div class="vignette"></div>
 
+  <!-- HUD -->
+  <div class="hud hud-tl">
+    <span class="hud-bracket">[</span>
+    <span class="hud-text">PROJECTS</span>
+    <span class="hud-bracket">]</span>
+    <span class="hud-separator">//</span>
+    <span class="hud-text dim">BUILD.LOG</span>
+  </div>
+  <div class="hud hud-tr">
+    <span class="hud-dot pulse"></span>
+    <span class="hud-text dim">DEPLOYING</span>
+  </div>
+
   <div class="page-container">
     <header class="page-header">
-      <a href="../index.html" class="back-btn">&#9664; Back</a>
-      <h1 class="page-title projects">Projects</h1>
+      <a href="../index.html" class="back-btn">
+        <span class="back-arrow">&#9664;</span> Hub
+      </a>
+      <h1 class="page-title">Projects</h1>
+      <span class="page-subtitle">// LAUNCH.PAD</span>
     </header>
 
     <div class="page-content">
+
+      <!-- StepLy — Primary Project -->
+      <div class="project-card primary">
+        <div class="project-name">StepLy</div>
+        <div class="project-type">Primary Project &middot; Location Intelligence Platform</div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Problem</div>
+          <div class="project-detail-value">Urban navigation and location discovery lack contextual intelligence about crowd dynamics, temporal patterns, and real suitability — people rely on static ratings instead of living spatial signals.</div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Solution</div>
+          <div class="project-detail-value">A location recommendation and crowd intelligence system that leverages human mobility data, spatial analytics, and real-time signals to deliver context-aware place suggestions adapted to time, crowd density, and user intent.</div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Architecture</div>
+          <div class="project-detail-value">Mobility data pipeline &#8594; Spatial feature engineering &#8594; ML recommendation model &#8594; Crowd intelligence layer &#8594; User-facing application</div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Technical Stack</div>
+          <div class="project-detail-value">
+            <div class="tags" style="margin-top: 0.3rem;">
+              <span class="tag">Python</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Spatial ML</span>
+              <span class="tag">Flutter</span>
+              <span class="tag">GIS APIs</span>
+              <span class="tag">Mobility Data</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Vision</div>
+          <div class="project-detail-value">Democratize spatial intelligence for everyday navigation — making cities legible through the lens of collective human movement.</div>
+        </div>
+
+        <div class="project-status active">
+          <span class="status-dot"></span>
+          IN DEVELOPMENT
+        </div>
+      </div>
+
+      <!-- EchoMind — Secondary Project -->
+      <div class="project-card">
+        <div class="project-name">EchoMind</div>
+        <div class="project-type">Secondary Project &middot; Emotion + Reflection System</div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Problem</div>
+          <div class="project-detail-value">Digital reflection and journaling tools lack emotional intelligence — they capture words but miss the emotional context and patterns that make self-understanding meaningful.</div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Solution</div>
+          <div class="project-detail-value">An emotion-aware reflection system that adapts to user emotional states, identifies patterns over time, and provides intelligent prompts for deeper self-understanding.</div>
+        </div>
+
+        <div class="project-detail">
+          <div class="project-detail-label">Vision</div>
+          <div class="project-detail-value">Bridge the gap between digital interaction and emotional awareness — making technology a partner in personal growth.</div>
+        </div>
+
+        <div class="project-status concept">
+          <span class="status-dot"></span>
+          CONCEPT PHASE
+        </div>
+      </div>
+
+      <!-- Experimental Prototypes -->
       <section class="content-section">
-        <h2>Featured Projects</h2>
-        <p>Highlight your best and most impactful projects here. Add descriptions, screenshots, and links.</p>
+        <div class="section-header">
+          <div class="section-icon">&#9881;</div>
+          <h2 class="section-title">Experimental Prototypes</h2>
+        </div>
+        <div class="section-body">
+          <p>Smaller-scale explorations and technical experiments that feed into larger research and product visions.</p>
+          <ul>
+            <li>Overpass Turbo spatial query implementation and visualization toolkit</li>
+            <li>ERA5 climate analysis dashboard — long-term meteorological data processing</li>
+            <li>Google Earth Engine applications for Uzbekistan land use analysis</li>
+            <li>ArcGIS spatial analysis workflows for urban hotspot detection</li>
+          </ul>
+        </div>
+        <div class="tags">
+          <span class="tag">Overpass Turbo</span>
+          <span class="tag">ERA5 Analysis</span>
+          <span class="tag">Earth Engine</span>
+          <span class="tag">ArcGIS</span>
+        </div>
       </section>
 
-      <section class="content-section">
-        <h2>Open Source</h2>
-        <p>Open source contributions and personal projects available on GitHub or other platforms.</p>
-      </section>
-
-      <section class="content-section">
-        <h2>Archive</h2>
-        <p>Older or smaller projects worth mentioning.</p>
-      </section>
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="social-links">
+        <a href="https://github.com/NodiraTillayeva" target="_blank" rel="noopener" class="social-link">GitHub</a>
+        <a href="https://twitter.com/ntillayeva" target="_blank" rel="noopener" class="social-link">X</a>
+        <a href="https://www.instagram.com/narasama.exe/" target="_blank" rel="noopener" class="social-link">IG</a>
+      </div>
+      <p class="footer-text" style="margin-top: 1rem;">NARA_SAMA // PROJECTS MODE</p>
+    </footer>
   </div>
+
+  <script src="../js/main.js"></script>
 </body>
 </html>

@@ -84,16 +84,17 @@ Graduate researcher at Nagoya University specializing in GeoAI and remote sensin
 
 ---
 
+
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/></a>
-  <a href="https://www.javascript.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50" height="50"/></a>
-  <a href="https://www.r-project.org/" target="_blank"><img src="https://www.r-project.org/Rlogo.png" alt="R" width="50" height="50"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/></a>
-  <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank"><img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_64636a5c446c22391d4ed719e0987cd2/arcgis-pro.png" alt="ArcGIS Pro" width="50" height="50"/></a>
-  <a href="https://earthengine.google.com/" target="_blank"><img src="https://raw.githubusercontent.com/NodiraTillayeva/NodiraTillayeva/main/googleearth.png" alt="Google Earth Engine" width="50" height="50"/></a>
-  <a href="https://www.automationanywhere.com" target="_blank"><img src="https://raw.githubusercontent.com/NodiraTillayeva/NodiraTillayeva/main/automation360.png" alt="Automation360" width="50" height="50"/></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/ArcGIS%20Pro-2C7AC3?style=for-the-badge&logo=esri&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation%20360-FF6F00?style=for-the-badge&logoColor=white" />
 </p>
 
 ```

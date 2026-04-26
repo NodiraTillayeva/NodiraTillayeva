@@ -122,12 +122,12 @@ Automation   : Automation 360, Python Scripts
 
 ### 🏆 Honors & Recognition
 
-- 🌏 **UN Conference Speaker** — 6th UN Conference on Water Management using Space Technologies (Costa Rica, 2024)
-- 🌱 **Call to Action Facilitator** — 11th APFSD Youth Forum, represented Uzbekistan (Thailand, 2024)
-- 🥇 **Technovation Challenge Finalist** — Top 5 out of 2,100+ projects worldwide • Top 0.2% (USA, 2023)
-- 🛰️ **UniSatellite Program Finalist** — 1-unit nanosatellite assembly program (Kazakhstan, 2022)
-- 🌟 **Global Ambassador** — Huawei Seeds for the Future Program (2023-Present)
-- 💼 **Mentor** — Technovation Challenge (2019-2025)
+- 🌏 **UN Conference Speaker** - 6th UN Conference on Water Management using Space Technologies (Costa Rica, 2024)
+- 🌱 **Call to Action Facilitator** - 11th APFSD Youth Forum, represented Uzbekistan (Thailand, 2024)
+- 🥇 **Technovation Challenge Finalist** - Top 5 out of 2,100+ projects worldwide • Top 0.2% (USA, 2023)
+- 🛰️ **UniSatellite Program Finalist** - 1-unit nanosatellite assembly program (Kazakhstan, 2022)
+- 🌟 **Global Ambassador** - Huawei Seeds for the Future Program (2023-Present)
+- 💼 **Mentor** - Technovation Challenge (2019-2025)
 
 
 ### 🔗 Connect
@@ -144,17 +144,9 @@ Automation   : Automation 360, Python Scripts
 
 <div align="center">
 
-### 🎥 Intro
-
 <video src="https://github.com/user-attachments/assets/1428533d-556a-4efe-a5cf-fa9536cfd735" controls autoplay loop muted width="600">
   Your browser does not support the video tag.
 </video>
-
-![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-
-![](https://raw.githubusercontent.com/NodiraTillayeva/github-stats/master/generated/overview.svg#gh-light-mode-only)
-
-<br><br>
 
 *Thanks for stopping by! Let's collaborate on something amazing.* 🦊
 

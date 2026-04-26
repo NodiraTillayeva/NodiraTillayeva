@@ -87,7 +87,7 @@ Graduate researcher at Nagoya University specializing in GeoAI and remote sensin
     <td align="center" valign="top" width="25%">
       <img height="170" alt="Area2Vec Embeddings" src="https://github.com/user-attachments/assets/90b8f047-e683-4a1f-a27b-45c17ff9cb5f" /><br><br>
       <b>Additive Compositionality in Urban Area Embeddings for Human Mobility Representation</b><br>
-      <sub>Tillayeva, N. et al. (2026)</sub><br>
+      <sub>Tamura, N. et al. (2026)</sub><br>
       <i>ACM Conference (KDD)</i><br><br>
       DOI: <a href="https://dl.acm.org/doi/10.1145/3804448">10.1145/3804448</a><br><br>
       <code>Area2Vec</code> <code>Urban Embeddings</code><br><br>

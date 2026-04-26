@@ -46,44 +46,55 @@ Graduate researcher at Nagoya University specializing in GeoAI and remote sensin
 
 </div>
 
-### 📚 Research & Publications
-
-<details>
-<summary><b>📄 Discovering Emerging Urban Hotspots Using Satellite Imagery and Human Mobility Data</b> (HCII 2025)</summary>
-
+<h2>📚 Research Publications</h2>
+<p>
+  <b>Focus:</b> GeoAI, Human Mobility, Urban Representation Learning, and AI for Sustainable Systems
+</p>
 <br>
-
-**[View Publication](https://doi.org/10.1007/978-3-031-92980-9_7)**
-
-*Tillayeva, N. et al. (2025) | Human Computer Interaction International Conference, Sweden*
-
-- Cross-disciplinary research combining AI, GIS, and ubiquitous computing
-- Behavioral data and spatial analytics for sustainable urban design
-- Human mobility patterns analysis using satellite imagery
-
-**Tech Stack:** `Python` `GIS` `AI/ML` `Spatial Analytics`
-
-</details>
-
-<details>
-<summary><b>📄 Long-term Statistics of Meteorological Data at the Maidanak Astronomical Observatory</b> (RAA 2026)</summary>
-
-<br>
-
-**[View Publication](https://doi.org/10.1088/1674-4527/ae1ec6)**
-
-*Azimov, A. M., Tillayev, Y. A., Hafizov, A. R., & Tillayeva, N. Y. (2026) | Research in Astronomy and Astrophysics*
-
-- Comprehensive analysis of 400,000+ meteorological measurements (2013-2024)
-- Long-term temperature trends and regional climate change signals
-- Engineering specifications for planned 4m telescope at Maidanak Observatory
-
-**Tech Stack:** `Data Analysis` `Climate Modeling` `Statistical Analysis`
-
-</details>
-
----
-
+<table>
+  <tr>
+    <!-- Paper 1 -->
+    <td align="center" valign="top" width="25%">
+      <img height="170" alt="Urban Hotspots" src="https://github.com/user-attachments/assets/850ad218-5aec-44b0-953f-5bb3e2338746" /><br><br>
+      <b>Discovering Emerging Urban Hotspots Using Satellite Imagery and Human Mobility Data</b><br>
+      <sub>Tillayeva, N. et al. (2025)</sub><br>
+      <i>HCII 2025, Sweden</i><br><br>
+      DOI: <a href="https://doi.org/10.1007/978-3-031-92980-9_7">10.1007/978-3-031-92980-9_7</a><br><br>
+      <code>GeoAI</code> <code>GIS</code> <code>Spatial Analytics</code><br><br>
+      <a href="https://doi.org/10.1007/978-3-031-92980-9_7">🔗 View Publication</a>
+    </td>
+    <!-- Paper 2 -->
+    <td align="center" valign="top" width="25%">
+      <img height="170" alt="Maidanak Observatory" src="https://github.com/user-attachments/assets/10037a92-2b77-440a-b2a8-01091dbaddf7" /><br><br>
+      <b>Long-term Statistics of Meteorological Data at the Maidanak Astronomical Observatory</b><br>
+      <sub>Azimov, A. M., Tillayev, Y. A., Hafizov, A. R., & Tillayeva, N. Y. (2026)</sub><br>
+      <i>Research in Astronomy and Astrophysics</i><br><br>
+      DOI: <a href="https://doi.org/10.1088/1674-4527/ae1ec6">10.1088/1674-4527/ae1ec6</a><br><br>
+      <code>Climate Modeling</code> <code>Data Analysis</code><br><br>
+      <a href="https://doi.org/10.1088/1674-4527/ae1ec6">🔗 View Publication</a>
+    </td>
+    <!-- Paper 3 -->
+    <td align="center" valign="top" width="25%">
+      <img height="170" alt="Mobility Datasets Review" src="https://github.com/user-attachments/assets/84112a98-e2f0-4470-953b-6422b386b5a7" /><br><br>
+      <b>Outfitting the Quest for Spatial Spread of Infections: A Review of Mobility Data and Datasets</b><br>
+      <sub>Tillayeva, N. et al. (2026)</sub><br>
+      <i>Computer Communications (Elsevier)</i><br><br>
+      DOI: <a href="https://www.sciencedirect.com/science/article/pii/S2468042726000217">S2468042726000217</a><br><br>
+      <code>Mobility Datasets</code> <code>Epidemiology</code><br><br>
+      <a href="https://www.sciencedirect.com/science/article/pii/S2468042726000217">🔗 View Publication</a>
+    </td>
+    <!-- Paper 4 -->
+    <td align="center" valign="top" width="25%">
+      <img height="170" alt="Area2Vec Embeddings" src="https://github.com/user-attachments/assets/90b8f047-e683-4a1f-a27b-45c17ff9cb5f" /><br><br>
+      <b>Additive Compositionality in Urban Area Embeddings for Human Mobility Representation</b><br>
+      <sub>Tillayeva, N. et al. (2026)</sub><br>
+      <i>ACM Conference (KDD)</i><br><br>
+      DOI: <a href="https://dl.acm.org/doi/10.1145/3804448">10.1145/3804448</a><br><br>
+      <code>Area2Vec</code> <code>Urban Embeddings</code><br><br>
+      <a href="https://dl.acm.org/doi/10.1145/3804448">🔗 View Publication</a>
+    </td>
+  </tr>
+</table>
 
 ### 🛠️ Tech Stack
 

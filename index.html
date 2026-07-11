@@ -1,102 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nodira Tillayeva — Nara Sama</title>
-  <meta name="description" content="GeoAI Researcher | Spatial Intelligence Builder | Exploring how human movement shapes intelligent urban systems.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nodira Tillayeva — Remote Sensing & GeoAI Researcher</title>
+  <meta name="description" content="Portfolio of Nodira Tillayeva — graduate researcher in remote sensing, GeoAI, and ubiquitous computing at Nagoya University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body data-mode="default">
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__logo">NT<span>.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="japan.html">Japan</a>
+      <a href="art.html">Art</a>
+      <a href="#contact" class="nav__cta">Let's talk</a>
+    </nav>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
 
-  <!-- Atmospheric Layers -->
-  <canvas id="particle-canvas"></canvas>
-  <div class="grid-bg"></div>
-  <div class="scanlines"></div>
-  <div class="vignette"></div>
+  <!-- ============ VERTICAL SECTION TIMELINE ============ -->
+  <nav class="vnav" aria-label="Section timeline">
+    <ul>
+      <li><a href="#work"><span class="vnav__dot"></span><span class="vnav__label">Research</span></a></li>
+      <li><a href="#experience"><span class="vnav__dot"></span><span class="vnav__label">Experience</span></a></li>
+      <li><a href="#awards"><span class="vnav__dot"></span><span class="vnav__label">Awards</span></a></li>
+      <li><a href="#press"><span class="vnav__dot"></span><span class="vnav__label">Press</span></a></li>
+      <li><a href="#skills"><span class="vnav__dot"></span><span class="vnav__label">Skills</span></a></li>
+    </ul>
+  </nav>
 
-  <!-- HUD Corners -->
-  <div class="hud hud-tl">
-    <span class="hud-bracket">[</span>
-    <span class="hud-text">NARA_SAMA</span>
-    <span class="hud-bracket">]</span>
-    <span class="hud-separator">//</span>
-    <span class="hud-text dim">PORTFOLIO v2.0</span>
-  </div>
-  <div class="hud hud-tr">
-    <span class="hud-dot pulse"></span>
-    <span class="hud-text dim">SYS.ONLINE</span>
-  </div>
-
-  <!-- Main Hub -->
-  <main class="hub">
-
-    <!-- Hero Character + Orbital Buttons -->
-    <div class="hero">
-      <img src="images/real.png" class="character-img character-real" alt="Nodira Tillayeva">
-      <img src="images/cienna.png" class="character-img character-art" alt="Nara Sama">
-
-      <!-- Navigation Nodes — orbiting the character -->
-      <a href="pages/art.html" class="nav-node" data-mode="art" data-pos="top-left">
-        <span class="node-icon">&#9670;</span>
-        <span class="node-label">Art</span>
-      </a>
-      <a href="pages/tech.html" class="nav-node" data-mode="tech" data-pos="top-right">
-        <span class="node-icon">&#9670;</span>
-        <span class="node-label">Tech</span>
-      </a>
-      <a href="pages/research.html" class="nav-node" data-mode="research" data-pos="bottom-left">
-        <span class="node-icon">&#9670;</span>
-        <span class="node-label">Research</span>
-      </a>
-      <a href="pages/projects.html" class="nav-node" data-mode="projects" data-pos="bottom-right">
-        <span class="node-icon">&#9670;</span>
-        <span class="node-label">Projects</span>
-      </a>
-
-      <div class="hero-text">
-        <h1 class="identity-name">NODIRA TILLAYEVA</h1>
-        <p class="identity-alias">(Nara Sama)</p>
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="about">
+      <div class="hero__photo">
+        <div class="tape tape--tl"></div>
+        <div class="tape tape--br"></div>
+        <img src="https://placehold.co/520x640/2f7d32/fff?text=Your+Photo" alt="Portrait of Nodira Tillayeva" />
+        <div class="hero__star" aria-hidden="true">★</div>
       </div>
-    </div>
 
-    <!-- Mode Indicator -->
-    <div class="mode-indicator">
-      <span id="mode-text">SELECT MODE</span>
-    </div>
-
-    <!-- Bottom Identity -->
-    <div class="identity-bottom">
-      <p class="identity-role">GeoAI Researcher <span class="separator">|</span> Spatial Intelligence Builder</p>
-      <p class="identity-tagline">Exploring how human movement shapes intelligent urban systems.</p>
-    </div>
-
-    <!-- HUD Stats Bar -->
-    <div class="hud-stats">
-      <div class="stat-item">
-        <span class="stat-label">Focus</span>
-        <span class="stat-value">GeoAI &middot; Urban Intelligence</span>
+      <div class="hero__intro">
+        <p class="hero__hello">Hi, I'm <span class="hilite-blue">NODIRA</span></p>
+        <h1 class="hero__name">Remote Sensing &amp; <span class="hilite-green">GeoAI Researcher</span></h1>
+        <p class="hero__lede">
+          I'm a graduate researcher specializing in <strong>remote sensing, GeoAI,
+          and ubiquitous computing</strong>. Currently pursuing an M.E. in Electrical
+          Engineering at <strong>Nagoya University</strong>, I build geospatial and
+          computer-vision systems that turn satellite &amp; sensor data into tools for
+          sustainable development.
+        </p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+        <ul class="hero__tags">
+          <li class="chip chip--blue">Remote Sensing</li>
+          <li class="chip chip--yellow">GeoAI</li>
+          <li class="chip chip--red">Computer Vision</li>
+          <li class="chip chip--green">GIS</li>
+        </ul>
       </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <span class="stat-label">Base</span>
-        <span class="stat-value">Nagoya, Japan</span>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <span class="stat-label">Status</span>
-        <span class="stat-value">Building StepLy</span>
-      </div>
-    </div>
+    </section>
 
+    <!-- ============ JOURNEY TIMELINE (Research → Skills) ============ -->
+    <div class="journey">
+
+    <!-- ============ RESEARCH / WORK ============ -->
+    <section class="section journey__stop" id="work">
+      <div class="section__head">
+        <span class="cutout">RESEARCH &amp; PROJECTS</span>
+        <p class="section__sub">Publications and applied systems in geospatial AI, satellite imagery, and sensing.</p>
+      </div>
+
+      <div class="work-grid">
+        <article class="card card--feature">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/2f6fd0/fff?text=Urban+Hotspots" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">Publication · HCII 2025</span>
+            <h3>Discovering Emerging Urban Hotspots</h3>
+            <p>Using satellite imagery + human-mobility data to inform sustainable urban design. Presented at Human-Computer Interaction International, Sweden.</p>
+            <a class="card__link" href="https://doi.org/10.1007/978-3-031-92980-9_7" target="_blank" rel="noopener">Read paper (DOI) ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/e14b3b/fff?text=Seismic+Monitor" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">GIS Engineering</span>
+            <h3>Seismic Monitoring System</h3>
+            <p>Real-time detection of earthquake-induced displacement around water reservoirs — ArcGIS JS SDK, temporal change tracking &amp; data export.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/f4d03f/2b2b2b?text=Parcel+Detection" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">Computer Vision</span>
+            <h3>Illegal-Construction Detection</h3>
+            <p>Mask-RCNN parcel detection on Sentinel-2 imagery across regions of Uzbekistan, supporting government enforcement.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/2f7d32/fff?text=ERA5+Analysis" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">Data Science</span>
+            <h3>Atmospheric Data Correlation</h3>
+            <p>Copernicus ERA5 reanalysis vs. ground &amp; telescope stations in Python (NetCDF4, numpy) — 96% correlation accuracy.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/2f6fd0/fff?text=VR+EdTech" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">Technovation · Top 0.2%</span>
+            <h3>VR Educational App</h3>
+            <p>Interactive biology &amp; physics lessons in Unity/C# with Google Cardboard. Led a team of 5 — top 5 of 2,100+ worldwide.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__thumb"><img src="https://placehold.co/600x450/f4d03f/2b2b2b?text=Nanosatellite" alt="" /></div>
+          <div class="card__body">
+            <span class="card__cat">Hardware · UniSatellite</span>
+            <h3>1U Nanosatellite Build</h3>
+            <p>Assembled a 1-unit nanosatellite with 8 environmental sensors — soldering, 3D printing, onboard programming &amp; PM2.5/PM10 analysis.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE + EDUCATION ============ -->
+    <section class="section section--split journey__stop" id="experience">
+      <div class="col">
+        <div class="section__head"><span class="cutout cutout--green">EXPERIENCE</span></div>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__date">Feb 2023 — May 2024</span>
+            <h3>Software Engineer</h3>
+            <p class="timeline__org">Center for Space Monitoring &amp; Geoinformation Technologies · AI &amp; Software Dept.</p>
+            <p>Built a seismic monitoring system (ArcGIS JS SDK) and co-developed a Mask-RCNN parcel-detection pipeline on Sentinel-2 imagery.</p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Dec 2021 — Jan 2023</span>
+            <h3>Data Analyst Intern</h3>
+            <p class="timeline__org">Ulugh Beg Astronomical Institute</p>
+            <p>Correlated Copernicus ERA5 reanalysis with ground &amp; telescope observations in Python, reaching 96% accuracy.</p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">2019 — 2025</span>
+            <h3>Mentor &amp; Technical Coordinator</h3>
+            <p class="timeline__org">Technovation Challenge · UniSat</p>
+            <p>Coached teams of high-school girls in app development — UX, Java/Python coding &amp; market research.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="col">
+        <div class="section__head"><span class="cutout cutout--blue">EDUCATION</span></div>
+
+        <div class="edu-card">
+          <span class="edu-card__year">Oct 2024 — Present</span>
+          <h3>Nagoya University</h3>
+          <p>M.E. in Electrical Engineering, Graduate School of Automotive Engineering</p>
+          <p class="edu-card__note">UCLab member · Coordinator, Google Developer Club on Campus</p>
+        </div>
+
+        <div class="edu-card">
+          <span class="edu-card__year">Sep 2019 — Aug 2023</span>
+          <h3>INHA University in Tashkent</h3>
+          <p>B.E. in Software Engineering</p>
+          <p class="edu-card__note">Dean's List Award · Capstone: autonomous driving with ROS TurtleBot3</p>
+        </div>
+
+        <div class="section__head" style="margin-top:2rem">
+          <span class="cutout cutout--yellow">CERTIFICATION</span>
+        </div>
+        <div class="cert-card">
+          <p><strong>IELTS 8.0</strong> · Global Ambassador, <strong>Huawei Seeds for the Future</strong> (2023 — Present).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AWARDS ============ -->
+    <section class="section journey__stop" id="awards">
+      <div class="section__head">
+        <span class="cutout cutout--red">HONORS &amp; AWARDS</span>
+      </div>
+      <div class="awards-grid">
+        <div class="note note--1">
+          <span class="note__where">Costa Rica · 2024</span>
+          <h3>Speaker — 6th UN Conference</h3>
+          <p>On water management using space tech. Presented 3D dam visualizations for real-time water monitoring.</p>
+        </div>
+        <div class="note note--2">
+          <span class="note__where">Thailand · 2024</span>
+          <h3>Facilitator — 11th APFSD Youth Forum</h3>
+          <p>Moderated a regional session on data scarcity &amp; climate action with remote sensing.</p>
+        </div>
+        <div class="note note--3">
+          <span class="note__where">USA · 2023</span>
+          <h3>Technovation Finalist</h3>
+          <p>Top 5 of 2,100+ (0.2%) — presented at the World Summit in Silicon Valley.</p>
+        </div>
+        <div class="note note--4">
+          <span class="note__where">Kazakhstan · 2022</span>
+          <h3>UniSatellite Finalist</h3>
+          <p>Assembled a 1U nanosatellite with 8 environmental sensors; analyzed PM2.5/PM10 data.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRESS & MEDIA ============ -->
+    <section class="section journey__stop" id="press">
+      <div class="section__head">
+        <span class="cutout cutout--blue">PRESS &amp; MEDIA</span>
+        <p class="section__sub">Interviews, features &amp; mentions.</p>
+      </div>
+
+      <div class="press-carousel">
+        <button class="press-nav press-nav--prev" aria-label="Scroll left" disabled>‹</button>
+        <ul class="press-list" tabindex="0" aria-label="Press and media, scrollable">
+        <li class="press-item">
+          <a href="https://www.unicef.org/uzbekistan/en/stories/path-science-and-technology-open-girls-they-can-confidently-stride-forward" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://placehold.co/240x160/1cabe2/fff?text=UNICEF" alt="" loading="lazy" /></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">UNICEF Uzbekistan</span>
+              <span class="press-item__title">Opening the path to science &amp; technology for girls</span>
+              <span class="press-item__meta">Feature story ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://www.unicef.org/uzbekistan/en/press-releases/girls-participating-unisat-30-program-assembled-and-launched-nanosatellites" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://placehold.co/240x160/1cabe2/fff?text=UNICEF" alt="" loading="lazy" /></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">UNICEF Uzbekistan</span>
+              <span class="press-item__title">Girls in UNISAT-3.0 assembled &amp; launched nanosatellites</span>
+              <span class="press-item__meta">Press release ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://tongali.net/sxsw/sxsw2026/" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://placehold.co/240x160/2f7d32/fff?text=Tongali" alt="" loading="lazy" /></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">Tongali · Nagoya University</span>
+              <span class="press-item__title">SXSW 2026 — co-leading “StepLy” location-intelligence app</span>
+              <span class="press-item__meta">Program feature ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://www.ucl.nuee.nagoya-u.ac.jp/member/" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://placehold.co/240x160/2f6fd0/fff?text=Nagoya+U" alt="" loading="lazy" /></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">Nagoya University</span>
+              <span class="press-item__title">Ubiquitous Computing (Kawaguchi) Lab — member profile</span>
+              <span class="press-item__meta">Lab profile ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://youtu.be/msANWc2oTwQ" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://img.youtube.com/vi/msANWc2oTwQ/hqdefault.jpg" alt="" loading="lazy" /><span class="press-item__play">▶</span></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">UN · Space4Water · Costa Rica 2024</span>
+              <span class="press-item__title">Speaker — 6th UN Conference on Water Management using Space Tech</span>
+              <span class="press-item__meta">Speech · video ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://stem4alleurasia.org/connect/podcast/tea-aliaj-nodira-tillaeva-and-adel-zhanabay-on-shattering-stereotypes" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://placehold.co/320x180/6c3fb5/fff?text=STEM4All+Podcast" alt="" loading="lazy" /><span class="press-item__play">▶</span></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">STEM4All Eurasia · Podcast</span>
+              <span class="press-item__title">On Shattering Stereotypes — with Tea Aliaj &amp; Adel Zhanabay</span>
+              <span class="press-item__meta">Podcast ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://www.youtube.com/watch?v=0cgDv5oHwuk" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://img.youtube.com/vi/0cgDv5oHwuk/hqdefault.jpg" alt="" loading="lazy" /><span class="press-item__play">▶</span></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">Huawei</span>
+              <span class="press-item__title">Seeds for the Future Webinar #2 — Generative AI: boon or bane?</span>
+              <span class="press-item__meta">Panel · video ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://youtu.be/Ng5l6WIq6bA" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://img.youtube.com/vi/Ng5l6WIq6bA/hqdefault.jpg" alt="" loading="lazy" /><span class="press-item__play">▶</span></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">Technovation Girls</span>
+              <span class="press-item__title">Interview — Team Tecnas, Uzbekistan</span>
+              <span class="press-item__meta">Interview · video ↗</span>
+            </span>
+          </a>
+        </li>
+        <li class="press-item">
+          <a href="https://www.youtube.com/watch?v=XIq5oE4LpMQ" target="_blank" rel="noopener">
+            <span class="press-item__thumb"><img src="https://img.youtube.com/vi/XIq5oE4LpMQ/hqdefault.jpg" alt="" loading="lazy" /><span class="press-item__play">▶</span></span>
+            <span class="press-item__text">
+              <span class="press-item__outlet">Video</span>
+              <span class="press-item__title">Fragmentations of Unity</span>
+              <span class="press-item__meta">Video ↗</span>
+            </span>
+          </a>
+        </li>
+        </ul>
+        <button class="press-nav press-nav--next" aria-label="Scroll right">›</button>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section journey__stop" id="skills">
+      <div class="section__head">
+        <span class="cutout cutout--green">TECHNICAL SKILLS</span>
+      </div>
+
+      <div class="skills-wrap">
+        <div class="skills-col">
+          <h3 class="skills-col__title">Domains</h3>
+          <ul class="tag-list">
+            <li>Google Earth Engine</li><li>ArcGIS</li><li>QGIS</li>
+            <li>Computer Vision</li><li>Mask-RCNN</li><li>Data Visualization</li>
+            <li>NetCDF4</li><li>numpy</li><li>ROS</li><li>Unity</li>
+            <li>Agile</li><li>RPA</li>
+          </ul>
+        </div>
+
+        <div class="skills-col">
+          <h3 class="skills-col__title">Languages &amp; Tools</h3>
+          <ul class="tools">
+            <li>Py</li><li>JS</li><li>C</li><li>ROS</li><li>Unity</li><li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    </div><!-- /.journey -->
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="contact__card">
+        <span class="cutout cutout--green">LET'S CONTACT!</span>
+        <ul class="contact__list">
+          <li><span>Email</span><a href="mailto:ntillayeva@gmail.com">ntillayeva@gmail.com</a></li>
+          <li><span>Phone</span><a href="tel:+818081397368">+81 90-8139-7368</a></li>
+          <li><span>Based in</span><a>Nagoya, Japan</a></li>
+        </ul>
+        <div class="contact__socials">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="https://doi.org/10.1007/978-3-031-92980-9_7" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- Transition Overlay -->
-  <div class="transition-warp" id="transition-warp"></div>
+  <footer class="footer">
+    <p>© <span id="year"></span> Nodira Tillayeva · Built with curiosity</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 
-  <script src="js/main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

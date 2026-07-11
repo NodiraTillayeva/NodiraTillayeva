@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Art — Nodira Tillayeva</title>
+  <meta name="description" content="Digital art & illustration by Nodira Tillayeva." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="index.html" class="nav__logo">NT<span>.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html#about">About</a>
+      <a href="index.html#work">Research</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#awards">Awards</a>
+      <a href="index.html#press">Press</a>
+      <a href="japan.html">Japan</a>
+      <a href="art.html" class="is-current">Art</a>
+      <a href="index.html#contact" class="nav__cta">Let's talk</a>
+    </nav>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <a href="index.html" class="page-hero__back">← Back home</a>
+      <span class="page-hero__flag" aria-hidden="true">🎨</span>
+      <h1 class="page-hero__title">Digital <span class="hilite-red">Art</span></h1>
+      <p class="page-hero__lede">Outside the lab — illustration &amp; digital painting. Swap these tiles for your pieces.</p>
+    </section>
+
+    <!-- ============ ART GALLERY ============ -->
+    <section class="section">
+      <div class="art-grid">
+        <figure class="art-tile art-tile--tall"><img src="https://placehold.co/500x680/e14b3b/fff?text=Artwork+1" alt="Digital artwork 1" /><figcaption>Character study</figcaption></figure>
+        <figure class="art-tile"><img src="https://placehold.co/500x500/2f6fd0/fff?text=Artwork+2" alt="Digital artwork 2" /><figcaption>Portrait</figcaption></figure>
+        <figure class="art-tile"><img src="https://placehold.co/500x500/f4d03f/2b2b2b?text=Artwork+3" alt="Digital artwork 3" /><figcaption>Illustration</figcaption></figure>
+        <figure class="art-tile art-tile--wide"><img src="https://placehold.co/1000x500/2f7d32/fff?text=Artwork+4" alt="Digital artwork 4" /><figcaption>Environment / scene</figcaption></figure>
+        <figure class="art-tile"><img src="https://placehold.co/500x500/e14b3b/fff?text=Artwork+5" alt="Digital artwork 5" /><figcaption>Concept sketch</figcaption></figure>
+        <figure class="art-tile art-tile--tall"><img src="https://placehold.co/500x680/2f6fd0/fff?text=Artwork+6" alt="Digital artwork 6" /><figcaption>Digital painting</figcaption></figure>
+        <figure class="art-tile"><img src="https://placehold.co/500x500/f4d03f/2b2b2b?text=Artwork+7" alt="Digital artwork 7" /><figcaption>Study</figcaption></figure>
+        <figure class="art-tile art-tile--wide"><img src="https://placehold.co/1000x500/e14b3b/fff?text=Artwork+8" alt="Digital artwork 8" /><figcaption>Panorama</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nodira Tillayeva · Built with curiosity</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
